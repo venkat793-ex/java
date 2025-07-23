@@ -1,3 +1,4 @@
+// invert star pattren 
 class Invert
 {
 	public static void main(String args[])
