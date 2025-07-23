@@ -1,3 +1,4 @@
+//to creat a hollow star pattren rectangle
 class Hollow
 {
 	public static void main(String args[])
