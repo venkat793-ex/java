@@ -1,0 +1,92 @@
+******************************************************************String-Methods-programs*******************************************************************
+
+
+1. to print each character of the string in separate line
+ class hlo
+{
+	public static void main(String []args)
+	{
+		String s="i am the indian";
+		for(int i=0; i<s.length(); i++)
+		{	
+			char c=s.charAt(i);
+			System.out.println(c);
+		}
+	}
+}
+
+2. write a java program to count a number of characters in a string
+ class b
+{
+	public static void main(String args[])
+	{
+		String s1="i am an indian";
+		System.out.print(s1.length());
+	}
+}
+3.write a java program to print a upper-case characters in a string
+ class b
+{
+	public static void main(String args[])
+	{
+		String s1="Venkat is from MANDAPETA";
+		for(int i=0;i<s1.length();i++)
+		{	
+			char c=s1.charAt(i);
+			if(Character.isUpperCase(c))
+			System.out.print(c);
+		}
+
+		
+	}
+}
+4.write a java program to print a lower-case characters in a string
+ class b
+{
+	public static void main(String args[])
+	{
+		String s1="Venkat is from MANDAPETA";
+		for(int i=0;i<s1.length();i++)
+		{	
+			char c=s1.charAt(i);
+			if (Character.isLowerCase(c))
+			System.out.print(c);
+		}
+
+		
+	}
+}
+5.write a program to count number of upper character letters
+class b
+{
+	public static void main(String []args)
+	{
+		int count=0;
+		String s1="VEnkaT";
+		for(int i=0;i<s1.length();i++)
+		{
+			char c=s1.charAt(i);
+			if(Character.isUpperCase(c))
+			count++;
+		}
+		System.out.print(count);
+	}
+}
+
+6.write a java program to count a lower case letters in string
+class b
+{
+	public static void main(String args[])
+	{
+		int count =0;
+		String s1="VenKAT";
+		for(int i=0; i<s1.length(); i++)
+		{
+			char c=s1.charAt(i);
+			if(Character.isLowerCase(c))
+			count++;
+		}
+		System.out.print(count);
+	}
+}
+
