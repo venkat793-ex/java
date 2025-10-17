@@ -89,4 +89,70 @@ class b
 		System.out.print(count);
 	}
 }
+7.write a java code using String to print digit first and character
+class b
+{
+	public static void main(String args[])
+	{
+		String a="";   // Will hold digits found in the string
+		String b="";   // Will hold characters found in the string
+		String c="venkat96";   // Input string
+
+		for(int i=0;i<c.length();i++)   // Loop through each character of the string
+		{
+			char d=c.charAt(i);         // Get the character at position i
+			if(Character.isDigit(d))    // Check if it's a digit
+				a=a+d;                  // If yes, add it to string a
+			else
+				b=b+d;                  // If not, add it to string b
+		}
+		String sr=a+b;                  // Concatenate digits and characters
+		System.out.print(sr);           // Print the result
+	}
+}
+
+8.write a java code using String to print Uppercase first and remaining last
+class b
+{
+	public static void main(String []args)
+	{	
+		String rev="";
+		String s="venkatswamy";
+		for(int i=0; i<s.length();i++)
+		{
+			char c=s.charAt(i);
+			rev=c+rev;             // First iteration: rev = "v" + "" = "v"
+						//Second iteration: rev = "e" + "v" = "ev"
+		 				//rev = "n" + "ev" = "nev"
+		}
+		System.out.print(rev);
+	}
+}
+
+		
+9.wire a java code using string to check string is palindrome or not
+class b
+{
+	public static void main(String args[])
+	{
+		String s="non";
+		String rev="";
+		for(int i=0;i<s.length();i++)
+		{
+			char c=s.charAt(i);
+			rev=c+rev;                 
+		}
+		if(s.equalsIgnoreCase(rev))
+			System.out.print("the given string is palindrome");
+		else
+			System.out.print("the given string is not a palindrome");
+	}
+}
+	
+
+			
+
+
+
+
 
